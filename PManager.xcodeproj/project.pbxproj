@@ -14,30 +14,6 @@
 		EA780A402443EFD800219C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA780A3E2443EFD800219C38 /* LaunchScreen.storyboard */; };
 		EA780A4B2443EFD800219C38 /* PManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A4A2443EFD800219C38 /* PManagerTests.swift */; };
 		EA780A562443EFD800219C38 /* PManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A552443EFD800219C38 /* PManagerUITests.swift */; };
-		EA780A842445648C00219C38 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A6A2445648B00219C38 /* APIHelper.swift */; };
-		EA780A852445648C00219C38 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A6B2445648B00219C38 /* AlamofireImplementations.swift */; };
-		EA780A862445648C00219C38 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A6C2445648B00219C38 /* JSONValue.swift */; };
-		EA780A872445648C00219C38 /* ClientsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A6E2445648C00219C38 /* ClientsAPI.swift */; };
-		EA780A882445648C00219C38 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A6F2445648C00219C38 /* CodableHelper.swift */; };
-		EA780A892445648C00219C38 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A702445648C00219C38 /* JSONEncodableEncoding.swift */; };
-		EA780A8A2445648C00219C38 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A712445648C00219C38 /* APIs.swift */; };
-		EA780A8B2445648C00219C38 /* SignUpBadSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A732445648C00219C38 /* SignUpBadSyntax.swift */; };
-		EA780A8C2445648C00219C38 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A742445648C00219C38 /* LoginRequest.swift */; };
-		EA780A8D2445648C00219C38 /* ErrorSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A752445648C00219C38 /* ErrorSchema.swift */; };
-		EA780A8E2445648C00219C38 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A762445648C00219C38 /* SignUpRequest.swift */; };
-		EA780A8F2445648C00219C38 /* ResetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A772445648C00219C38 /* ResetRequest.swift */; };
-		EA780A902445648C00219C38 /* InlineResponse409.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A782445648C00219C38 /* InlineResponse409.swift */; };
-		EA780A912445648C00219C38 /* InlineResponse4001.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A792445648C00219C38 /* InlineResponse4001.swift */; };
-		EA780A922445648C00219C38 /* InlineResponse409Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7A2445648C00219C38 /* InlineResponse409Error.swift */; };
-		EA780A932445648C00219C38 /* ConfirmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7B2445648C00219C38 /* ConfirmRequest.swift */; };
-		EA780A942445648C00219C38 /* InlineResponse400.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7C2445648C00219C38 /* InlineResponse400.swift */; };
-		EA780A952445648C00219C38 /* InlineResponse400Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7D2445648C00219C38 /* InlineResponse400Error.swift */; };
-		EA780A962445648C00219C38 /* ChangePasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7E2445648C00219C38 /* ChangePasswordRequest.swift */; };
-		EA780A972445648C00219C38 /* InlineResponse4001Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A7F2445648C00219C38 /* InlineResponse4001Error.swift */; };
-		EA780A982445648C00219C38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A802445648C00219C38 /* Extensions.swift */; };
-		EA780A992445648C00219C38 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A812445648C00219C38 /* JSONEncodingHelper.swift */; };
-		EA780A9A2445648C00219C38 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A822445648C00219C38 /* Models.swift */; };
-		EA780A9B2445648C00219C38 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A832445648C00219C38 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,30 +47,6 @@
 		EA780A512443EFD800219C38 /* PManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA780A552443EFD800219C38 /* PManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PManagerUITests.swift; sourceTree = "<group>"; };
 		EA780A572443EFD800219C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA780A6A2445648B00219C38 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
-		EA780A6B2445648B00219C38 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
-		EA780A6C2445648B00219C38 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
-		EA780A6E2445648C00219C38 /* ClientsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsAPI.swift; sourceTree = "<group>"; };
-		EA780A6F2445648C00219C38 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
-		EA780A702445648C00219C38 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
-		EA780A712445648C00219C38 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		EA780A732445648C00219C38 /* SignUpBadSyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpBadSyntax.swift; sourceTree = "<group>"; };
-		EA780A742445648C00219C38 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		EA780A752445648C00219C38 /* ErrorSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorSchema.swift; sourceTree = "<group>"; };
-		EA780A762445648C00219C38 /* SignUpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
-		EA780A772445648C00219C38 /* ResetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetRequest.swift; sourceTree = "<group>"; };
-		EA780A782445648C00219C38 /* InlineResponse409.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse409.swift; sourceTree = "<group>"; };
-		EA780A792445648C00219C38 /* InlineResponse4001.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse4001.swift; sourceTree = "<group>"; };
-		EA780A7A2445648C00219C38 /* InlineResponse409Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse409Error.swift; sourceTree = "<group>"; };
-		EA780A7B2445648C00219C38 /* ConfirmRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRequest.swift; sourceTree = "<group>"; };
-		EA780A7C2445648C00219C38 /* InlineResponse400.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse400.swift; sourceTree = "<group>"; };
-		EA780A7D2445648C00219C38 /* InlineResponse400Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse400Error.swift; sourceTree = "<group>"; };
-		EA780A7E2445648C00219C38 /* ChangePasswordRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordRequest.swift; sourceTree = "<group>"; };
-		EA780A7F2445648C00219C38 /* InlineResponse4001Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse4001Error.swift; sourceTree = "<group>"; };
-		EA780A802445648C00219C38 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EA780A812445648C00219C38 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
-		EA780A822445648C00219C38 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		EA780A832445648C00219C38 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +97,6 @@
 		EA780A322443EFD700219C38 /* PManager */ = {
 			isa = PBXGroup;
 			children = (
-				EA780A692445648B00219C38 /* Swaggers */,
 				EA780A332443EFD700219C38 /* AppDelegate.swift */,
 				EA780A372443EFD700219C38 /* ViewController.swift */,
 				EA780A392443EFD700219C38 /* Main.storyboard */,
@@ -172,53 +123,6 @@
 				EA780A572443EFD800219C38 /* Info.plist */,
 			);
 			path = PManagerUITests;
-			sourceTree = "<group>";
-		};
-		EA780A692445648B00219C38 /* Swaggers */ = {
-			isa = PBXGroup;
-			children = (
-				EA780A6A2445648B00219C38 /* APIHelper.swift */,
-				EA780A6B2445648B00219C38 /* AlamofireImplementations.swift */,
-				EA780A6C2445648B00219C38 /* JSONValue.swift */,
-				EA780A6D2445648B00219C38 /* APIs */,
-				EA780A6F2445648C00219C38 /* CodableHelper.swift */,
-				EA780A702445648C00219C38 /* JSONEncodableEncoding.swift */,
-				EA780A712445648C00219C38 /* APIs.swift */,
-				EA780A722445648C00219C38 /* Models */,
-				EA780A802445648C00219C38 /* Extensions.swift */,
-				EA780A812445648C00219C38 /* JSONEncodingHelper.swift */,
-				EA780A822445648C00219C38 /* Models.swift */,
-				EA780A832445648C00219C38 /* Configuration.swift */,
-			);
-			path = Swaggers;
-			sourceTree = "<group>";
-		};
-		EA780A6D2445648B00219C38 /* APIs */ = {
-			isa = PBXGroup;
-			children = (
-				EA780A6E2445648C00219C38 /* ClientsAPI.swift */,
-			);
-			path = APIs;
-			sourceTree = "<group>";
-		};
-		EA780A722445648C00219C38 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				EA780A732445648C00219C38 /* SignUpBadSyntax.swift */,
-				EA780A742445648C00219C38 /* LoginRequest.swift */,
-				EA780A752445648C00219C38 /* ErrorSchema.swift */,
-				EA780A762445648C00219C38 /* SignUpRequest.swift */,
-				EA780A772445648C00219C38 /* ResetRequest.swift */,
-				EA780A782445648C00219C38 /* InlineResponse409.swift */,
-				EA780A792445648C00219C38 /* InlineResponse4001.swift */,
-				EA780A7A2445648C00219C38 /* InlineResponse409Error.swift */,
-				EA780A7B2445648C00219C38 /* ConfirmRequest.swift */,
-				EA780A7C2445648C00219C38 /* InlineResponse400.swift */,
-				EA780A7D2445648C00219C38 /* InlineResponse400Error.swift */,
-				EA780A7E2445648C00219C38 /* ChangePasswordRequest.swift */,
-				EA780A7F2445648C00219C38 /* InlineResponse4001Error.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,32 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA780A982445648C00219C38 /* Extensions.swift in Sources */,
-				EA780A842445648C00219C38 /* APIHelper.swift in Sources */,
-				EA780A882445648C00219C38 /* CodableHelper.swift in Sources */,
 				EA780A382443EFD700219C38 /* ViewController.swift in Sources */,
-				EA780A852445648C00219C38 /* AlamofireImplementations.swift in Sources */,
-				EA780A892445648C00219C38 /* JSONEncodableEncoding.swift in Sources */,
-				EA780A8F2445648C00219C38 /* ResetRequest.swift in Sources */,
-				EA780A912445648C00219C38 /* InlineResponse4001.swift in Sources */,
-				EA780A952445648C00219C38 /* InlineResponse400Error.swift in Sources */,
-				EA780A942445648C00219C38 /* InlineResponse400.swift in Sources */,
 				EA780A342443EFD700219C38 /* AppDelegate.swift in Sources */,
-				EA780A8B2445648C00219C38 /* SignUpBadSyntax.swift in Sources */,
-				EA780A922445648C00219C38 /* InlineResponse409Error.swift in Sources */,
-				EA780A962445648C00219C38 /* ChangePasswordRequest.swift in Sources */,
-				EA780A972445648C00219C38 /* InlineResponse4001Error.swift in Sources */,
-				EA780A932445648C00219C38 /* ConfirmRequest.swift in Sources */,
-				EA780A8E2445648C00219C38 /* SignUpRequest.swift in Sources */,
-				EA780A862445648C00219C38 /* JSONValue.swift in Sources */,
-				EA780A902445648C00219C38 /* InlineResponse409.swift in Sources */,
-				EA780A8A2445648C00219C38 /* APIs.swift in Sources */,
-				EA780A9B2445648C00219C38 /* Configuration.swift in Sources */,
-				EA780A992445648C00219C38 /* JSONEncodingHelper.swift in Sources */,
-				EA780A872445648C00219C38 /* ClientsAPI.swift in Sources */,
-				EA780A8C2445648C00219C38 /* LoginRequest.swift in Sources */,
-				EA780A8D2445648C00219C38 /* ErrorSchema.swift in Sources */,
-				EA780A9A2445648C00219C38 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

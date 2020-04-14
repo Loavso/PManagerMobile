@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     
     let login_url = "http://34.73.25.235/auth/login"
     let checksession_url = "http://www.kaleidosblog.com/tutorial/login/api/CheckSession"
-    let clientAPI = require("Swaggers/APIs/ClientsAPI/ClientsAPI")
-    let loginRequest = require("Swaggers/APIs/Models/LoginRequest")
+//    let clientAPI = require("Swaggers/APIs/ClientsAPI/ClientsAPI")
+//    let loginRequest = require("Swaggers/APIs/Models/LoginRequest")
 
     
     @IBOutlet var username_input: UITextField!
