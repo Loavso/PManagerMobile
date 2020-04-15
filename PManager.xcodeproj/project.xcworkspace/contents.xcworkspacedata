@@ -2,7 +2,105 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/laurynlandkrohn/OneDrive/PManager/PManager/swift5-client-generated">
+      location = "group:Cartfile">
+   </FileRef>
+   <FileRef
+      location = "group:git_push.sh">
+   </FileRef>
+   <Group
+      location = "group:SwaggerClient"
+      name = "SwaggerClient">
+      <Group
+         location = "group:Classes"
+         name = "Classes">
+         <Group
+            location = "group:Swaggers"
+            name = "Swaggers">
+            <FileRef
+               location = "group:APIHelper.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AlamofireImplementations.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONValue.swift">
+            </FileRef>
+            <Group
+               location = "group:APIs"
+               name = "APIs">
+               <FileRef
+                  location = "group:ClientsAPI.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:CodableHelper.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncodableEncoding.swift">
+            </FileRef>
+            <FileRef
+               location = "group:APIs.swift">
+            </FileRef>
+            <Group
+               location = "group:Models"
+               name = "Models">
+               <FileRef
+                  location = "group:SignUpBadSyntax.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LoginRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ErrorSchema.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SignUpRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ResetRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse409.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse4001.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse409Error.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConfirmRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse400.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse400Error.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ChangePasswordRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InlineResponse4001Error.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncodingHelper.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Models.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Configuration.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:SwaggerClient.podspec">
    </FileRef>
    <FileRef
       location = "self:">
