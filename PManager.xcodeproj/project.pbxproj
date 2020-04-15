@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94FAF81772D1CAE3B67AB804 /* libPods-PManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E19077092B58DDA0EAA30 /* libPods-PManager.a */; };
 		EA780A342443EFD700219C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A332443EFD700219C38 /* AppDelegate.swift */; };
 		EA780A382443EFD700219C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A372443EFD700219C38 /* ViewController.swift */; };
 		EA780A3B2443EFD700219C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA780A392443EFD700219C38 /* Main.storyboard */; };
@@ -14,6 +15,33 @@
 		EA780A402443EFD800219C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA780A3E2443EFD800219C38 /* LaunchScreen.storyboard */; };
 		EA780A4B2443EFD800219C38 /* PManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A4A2443EFD800219C38 /* PManagerTests.swift */; };
 		EA780A562443EFD800219C38 /* PManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A552443EFD800219C38 /* PManagerUITests.swift */; };
+		EA7964D224466821000FBE64 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = EA7964B224466820000FBE64 /* Cartfile */; };
+		EA7964D324466821000FBE64 /* git_push.sh in Resources */ = {isa = PBXBuildFile; fileRef = EA7964B324466820000FBE64 /* git_push.sh */; };
+		EA7964D424466821000FBE64 /* SwaggerClient.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA7964B424466820000FBE64 /* SwaggerClient.podspec */; };
+		EA7964D524466821000FBE64 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964B824466821000FBE64 /* APIHelper.swift */; };
+		EA7964D624466821000FBE64 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964B924466821000FBE64 /* AlamofireImplementations.swift */; };
+		EA7964D724466821000FBE64 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964BA24466821000FBE64 /* JSONValue.swift */; };
+		EA7964D824466821000FBE64 /* ClientsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964BC24466821000FBE64 /* ClientsAPI.swift */; };
+		EA7964D924466821000FBE64 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964BD24466821000FBE64 /* CodableHelper.swift */; };
+		EA7964DA24466821000FBE64 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964BE24466821000FBE64 /* JSONEncodableEncoding.swift */; };
+		EA7964DB24466821000FBE64 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964BF24466821000FBE64 /* APIs.swift */; };
+		EA7964DC24466821000FBE64 /* SignUpBadSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C124466821000FBE64 /* SignUpBadSyntax.swift */; };
+		EA7964DD24466821000FBE64 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C224466821000FBE64 /* LoginRequest.swift */; };
+		EA7964DE24466821000FBE64 /* ErrorSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C324466821000FBE64 /* ErrorSchema.swift */; };
+		EA7964DF24466821000FBE64 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C424466821000FBE64 /* SignUpRequest.swift */; };
+		EA7964E024466821000FBE64 /* ResetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C524466821000FBE64 /* ResetRequest.swift */; };
+		EA7964E124466821000FBE64 /* InlineResponse409.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C624466821000FBE64 /* InlineResponse409.swift */; };
+		EA7964E224466821000FBE64 /* InlineResponse4001.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C724466821000FBE64 /* InlineResponse4001.swift */; };
+		EA7964E324466821000FBE64 /* InlineResponse409Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C824466821000FBE64 /* InlineResponse409Error.swift */; };
+		EA7964E424466821000FBE64 /* ConfirmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964C924466821000FBE64 /* ConfirmRequest.swift */; };
+		EA7964E524466821000FBE64 /* InlineResponse400.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CA24466821000FBE64 /* InlineResponse400.swift */; };
+		EA7964E624466821000FBE64 /* InlineResponse400Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CB24466821000FBE64 /* InlineResponse400Error.swift */; };
+		EA7964E724466821000FBE64 /* ChangePasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CC24466821000FBE64 /* ChangePasswordRequest.swift */; };
+		EA7964E824466821000FBE64 /* InlineResponse4001Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CD24466821000FBE64 /* InlineResponse4001Error.swift */; };
+		EA7964E924466821000FBE64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CE24466821000FBE64 /* Extensions.swift */; };
+		EA7964EA24466821000FBE64 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964CF24466821000FBE64 /* JSONEncodingHelper.swift */; };
+		EA7964EB24466821000FBE64 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964D024466821000FBE64 /* Models.swift */; };
+		EA7964EC24466821000FBE64 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7964D124466821000FBE64 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EE22FE68DF6C95F38799F8C /* Pods-PManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PManager.release.xcconfig"; path = "Target Support Files/Pods-PManager/Pods-PManager.release.xcconfig"; sourceTree = "<group>"; };
+		B36E19077092B58DDA0EAA30 /* libPods-PManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA780A302443EFD700219C38 /* PManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA780A332443EFD700219C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA780A372443EFD700219C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,34 @@
 		EA780A512443EFD800219C38 /* PManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA780A552443EFD800219C38 /* PManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PManagerUITests.swift; sourceTree = "<group>"; };
 		EA780A572443EFD800219C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7964B224466820000FBE64 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		EA7964B324466820000FBE64 /* git_push.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = git_push.sh; path = "../../../Downloads/swift5-client-generated (1)/git_push.sh"; sourceTree = "<group>"; };
+		EA7964B424466820000FBE64 /* SwaggerClient.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwaggerClient.podspec; sourceTree = "<group>"; };
+		EA7964B824466821000FBE64 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		EA7964B924466821000FBE64 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		EA7964BA24466821000FBE64 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		EA7964BC24466821000FBE64 /* ClientsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsAPI.swift; sourceTree = "<group>"; };
+		EA7964BD24466821000FBE64 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		EA7964BE24466821000FBE64 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		EA7964BF24466821000FBE64 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		EA7964C124466821000FBE64 /* SignUpBadSyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpBadSyntax.swift; sourceTree = "<group>"; };
+		EA7964C224466821000FBE64 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		EA7964C324466821000FBE64 /* ErrorSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorSchema.swift; sourceTree = "<group>"; };
+		EA7964C424466821000FBE64 /* SignUpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
+		EA7964C524466821000FBE64 /* ResetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetRequest.swift; sourceTree = "<group>"; };
+		EA7964C624466821000FBE64 /* InlineResponse409.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse409.swift; sourceTree = "<group>"; };
+		EA7964C724466821000FBE64 /* InlineResponse4001.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse4001.swift; sourceTree = "<group>"; };
+		EA7964C824466821000FBE64 /* InlineResponse409Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse409Error.swift; sourceTree = "<group>"; };
+		EA7964C924466821000FBE64 /* ConfirmRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRequest.swift; sourceTree = "<group>"; };
+		EA7964CA24466821000FBE64 /* InlineResponse400.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse400.swift; sourceTree = "<group>"; };
+		EA7964CB24466821000FBE64 /* InlineResponse400Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse400Error.swift; sourceTree = "<group>"; };
+		EA7964CC24466821000FBE64 /* ChangePasswordRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordRequest.swift; sourceTree = "<group>"; };
+		EA7964CD24466821000FBE64 /* InlineResponse4001Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponse4001Error.swift; sourceTree = "<group>"; };
+		EA7964CE24466821000FBE64 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EA7964CF24466821000FBE64 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		EA7964D024466821000FBE64 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EA7964D124466821000FBE64 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EC2990AFD47F6D876247AD4C /* Pods-PManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PManager.debug.xcconfig"; path = "Target Support Files/Pods-PManager/Pods-PManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FAF81772D1CAE3B67AB804 /* libPods-PManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +133,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B8C2CCCEAA2E25DC391ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC2990AFD47F6D876247AD4C /* Pods-PManager.debug.xcconfig */,
+				4EE22FE68DF6C95F38799F8C /* Pods-PManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47DA139ADF21FCCD70FE927B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36E19077092B58DDA0EAA30 /* libPods-PManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA780A272443EFD700219C38 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +157,8 @@
 				EA780A492443EFD800219C38 /* PManagerTests */,
 				EA780A542443EFD800219C38 /* PManagerUITests */,
 				EA780A312443EFD700219C38 /* Products */,
+				19B8C2CCCEAA2E25DC391ABE /* Pods */,
+				47DA139ADF21FCCD70FE927B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +175,10 @@
 		EA780A322443EFD700219C38 /* PManager */ = {
 			isa = PBXGroup;
 			children = (
+				EA7964B224466820000FBE64 /* Cartfile */,
+				EA7964B324466820000FBE64 /* git_push.sh */,
+				EA7964ED244674C0000FBE64 /* SwaggerClient */,
+				EA7964B424466820000FBE64 /* SwaggerClient.podspec */,
 				EA780A332443EFD700219C38 /* AppDelegate.swift */,
 				EA780A372443EFD700219C38 /* ViewController.swift */,
 				EA780A392443EFD700219C38 /* Main.storyboard */,
@@ -125,6 +207,77 @@
 			path = PManagerUITests;
 			sourceTree = "<group>";
 		};
+		EA7964B524466821000FBE64 /* SwaggerClient */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964B624466821000FBE64 /* Classes */,
+			);
+			path = SwaggerClient;
+			sourceTree = "<group>";
+		};
+		EA7964B624466821000FBE64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964B724466821000FBE64 /* Swaggers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EA7964B724466821000FBE64 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964B824466821000FBE64 /* APIHelper.swift */,
+				EA7964B924466821000FBE64 /* AlamofireImplementations.swift */,
+				EA7964BA24466821000FBE64 /* JSONValue.swift */,
+				EA7964BB24466821000FBE64 /* APIs */,
+				EA7964BD24466821000FBE64 /* CodableHelper.swift */,
+				EA7964BE24466821000FBE64 /* JSONEncodableEncoding.swift */,
+				EA7964BF24466821000FBE64 /* APIs.swift */,
+				EA7964C024466821000FBE64 /* Models */,
+				EA7964CE24466821000FBE64 /* Extensions.swift */,
+				EA7964CF24466821000FBE64 /* JSONEncodingHelper.swift */,
+				EA7964D024466821000FBE64 /* Models.swift */,
+				EA7964D124466821000FBE64 /* Configuration.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		EA7964BB24466821000FBE64 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964BC24466821000FBE64 /* ClientsAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		EA7964C024466821000FBE64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964C124466821000FBE64 /* SignUpBadSyntax.swift */,
+				EA7964C224466821000FBE64 /* LoginRequest.swift */,
+				EA7964C324466821000FBE64 /* ErrorSchema.swift */,
+				EA7964C424466821000FBE64 /* SignUpRequest.swift */,
+				EA7964C524466821000FBE64 /* ResetRequest.swift */,
+				EA7964C624466821000FBE64 /* InlineResponse409.swift */,
+				EA7964C724466821000FBE64 /* InlineResponse4001.swift */,
+				EA7964C824466821000FBE64 /* InlineResponse409Error.swift */,
+				EA7964C924466821000FBE64 /* ConfirmRequest.swift */,
+				EA7964CA24466821000FBE64 /* InlineResponse400.swift */,
+				EA7964CB24466821000FBE64 /* InlineResponse400Error.swift */,
+				EA7964CC24466821000FBE64 /* ChangePasswordRequest.swift */,
+				EA7964CD24466821000FBE64 /* InlineResponse4001Error.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA7964ED244674C0000FBE64 /* SwaggerClient */ = {
+			isa = PBXGroup;
+			children = (
+				EA7964B524466821000FBE64 /* SwaggerClient */,
+			);
+			path = SwaggerClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA780A5A2443EFD800219C38 /* Build configuration list for PBXNativeTarget "PManager" */;
 			buildPhases = (
+				0BEA6464DC5F51F7908C9FD6 /* [CP] Check Pods Manifest.lock */,
 				EA780A2C2443EFD700219C38 /* Sources */,
 				EA780A2D2443EFD700219C38 /* Frameworks */,
 				EA780A2E2443EFD700219C38 /* Resources */,
@@ -229,8 +383,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7964D324466821000FBE64 /* git_push.sh in Resources */,
 				EA780A402443EFD800219C38 /* LaunchScreen.storyboard in Resources */,
 				EA780A3D2443EFD800219C38 /* Assets.xcassets in Resources */,
+				EA7964D224466821000FBE64 /* Cartfile in Resources */,
+				EA7964D424466821000FBE64 /* SwaggerClient.podspec in Resources */,
 				EA780A3B2443EFD700219C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +408,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BEA6464DC5F51F7908C9FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA780A2C2443EFD700219C38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7964E924466821000FBE64 /* Extensions.swift in Sources */,
+				EA7964D524466821000FBE64 /* APIHelper.swift in Sources */,
+				EA7964D924466821000FBE64 /* CodableHelper.swift in Sources */,
 				EA780A382443EFD700219C38 /* ViewController.swift in Sources */,
+				EA7964D624466821000FBE64 /* AlamofireImplementations.swift in Sources */,
+				EA7964DA24466821000FBE64 /* JSONEncodableEncoding.swift in Sources */,
+				EA7964E024466821000FBE64 /* ResetRequest.swift in Sources */,
+				EA7964E224466821000FBE64 /* InlineResponse4001.swift in Sources */,
+				EA7964E624466821000FBE64 /* InlineResponse400Error.swift in Sources */,
+				EA7964E524466821000FBE64 /* InlineResponse400.swift in Sources */,
 				EA780A342443EFD700219C38 /* AppDelegate.swift in Sources */,
+				EA7964DC24466821000FBE64 /* SignUpBadSyntax.swift in Sources */,
+				EA7964E324466821000FBE64 /* InlineResponse409Error.swift in Sources */,
+				EA7964E724466821000FBE64 /* ChangePasswordRequest.swift in Sources */,
+				EA7964E824466821000FBE64 /* InlineResponse4001Error.swift in Sources */,
+				EA7964E424466821000FBE64 /* ConfirmRequest.swift in Sources */,
+				EA7964DF24466821000FBE64 /* SignUpRequest.swift in Sources */,
+				EA7964D724466821000FBE64 /* JSONValue.swift in Sources */,
+				EA7964E124466821000FBE64 /* InlineResponse409.swift in Sources */,
+				EA7964DB24466821000FBE64 /* APIs.swift in Sources */,
+				EA7964EC24466821000FBE64 /* Configuration.swift in Sources */,
+				EA7964EA24466821000FBE64 /* JSONEncodingHelper.swift in Sources */,
+				EA7964D824466821000FBE64 /* ClientsAPI.swift in Sources */,
+				EA7964DD24466821000FBE64 /* LoginRequest.swift in Sources */,
+				EA7964DE24466821000FBE64 /* ErrorSchema.swift in Sources */,
+				EA7964EB24466821000FBE64 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +634,7 @@
 		};
 		EA780A5B2443EFD800219C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2990AFD47F6D876247AD4C /* Pods-PManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +653,7 @@
 		};
 		EA780A5C2443EFD800219C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE22FE68DF6C95F38799F8C /* Pods-PManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

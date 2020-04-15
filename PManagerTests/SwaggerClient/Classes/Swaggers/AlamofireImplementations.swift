@@ -29,11 +29,11 @@ open class AlamofireRequestBuilder<T>: RequestBuilder<T> {
     }
 
     /**
-     May be overridden by a subclass if you want to control the session
+     May be overridden by a subclass if you want to control the SessionManager
      configuration.
      */
     open func createSessionManager() -> Alamofire.SessionManager {
-        let configuration = URLSessionConfiguration.default
+        let configuration = URLSessionManagerConfiguration.default
         configuration.httpAdditionalHeaders = buildHeaders()
         return Alamofire.SessionManager(configuration: configuration)
     }
@@ -317,7 +317,7 @@ open class AlamofireDecodableRequestBuilder<T:Decodable>: AlamofireRequestBuilde
 
     override fileprivate func processRequest(request: DataRequest, _ managerId: String, _ completion: @escaping (_ response: Response<T>?, _ error: Error?) -> Void) {
         if let credential = self.credential {
-            request.authenticate(usingCredential: credential)
+            request.authenticate(with: credential)
         }
 
         let cleanupRequest = {
