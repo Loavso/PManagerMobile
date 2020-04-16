@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		94FAF81772D1CAE3B67AB804 /* libPods-PManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E19077092B58DDA0EAA30 /* libPods-PManager.a */; };
+		EA4783C22447F33000D3E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4783C12447F33000D3E189 /* Assets.xcassets */; };
 		EA780A342443EFD700219C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A332443EFD700219C38 /* AppDelegate.swift */; };
 		EA780A382443EFD700219C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A372443EFD700219C38 /* ViewController.swift */; };
 		EA780A3B2443EFD700219C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA780A392443EFD700219C38 /* Main.storyboard */; };
-		EA780A3D2443EFD800219C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA780A3C2443EFD800219C38 /* Assets.xcassets */; };
 		EA780A402443EFD800219C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA780A3E2443EFD800219C38 /* LaunchScreen.storyboard */; };
 		EA780A4B2443EFD800219C38 /* PManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A4A2443EFD800219C38 /* PManagerTests.swift */; };
 		EA780A562443EFD800219C38 /* PManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA780A552443EFD800219C38 /* PManagerUITests.swift */; };
@@ -64,11 +64,11 @@
 /* Begin PBXFileReference section */
 		4EE22FE68DF6C95F38799F8C /* Pods-PManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PManager.release.xcconfig"; path = "Target Support Files/Pods-PManager/Pods-PManager.release.xcconfig"; sourceTree = "<group>"; };
 		B36E19077092B58DDA0EAA30 /* libPods-PManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4783C12447F33000D3E189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Login-Screen-UI-master/LoginExample/Assets.xcassets"; sourceTree = "<group>"; };
 		EA780A302443EFD700219C38 /* PManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA780A332443EFD700219C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA780A372443EFD700219C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA780A3A2443EFD700219C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA780A3C2443EFD800219C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA780A3F2443EFD800219C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA780A412443EFD800219C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA780A462443EFD800219C38 /* PManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +175,7 @@
 		EA780A322443EFD700219C38 /* PManager */ = {
 			isa = PBXGroup;
 			children = (
+				EA4783C12447F33000D3E189 /* Assets.xcassets */,
 				EA7964B224466820000FBE64 /* Cartfile */,
 				EA7964B324466820000FBE64 /* git_push.sh */,
 				EA7964ED244674C0000FBE64 /* SwaggerClient */,
@@ -182,7 +183,6 @@
 				EA780A332443EFD700219C38 /* AppDelegate.swift */,
 				EA780A372443EFD700219C38 /* ViewController.swift */,
 				EA780A392443EFD700219C38 /* Main.storyboard */,
-				EA780A3C2443EFD800219C38 /* Assets.xcassets */,
 				EA780A3E2443EFD800219C38 /* LaunchScreen.storyboard */,
 				EA780A412443EFD800219C38 /* Info.plist */,
 			);
@@ -385,8 +385,8 @@
 			files = (
 				EA7964D324466821000FBE64 /* git_push.sh in Resources */,
 				EA780A402443EFD800219C38 /* LaunchScreen.storyboard in Resources */,
-				EA780A3D2443EFD800219C38 /* Assets.xcassets in Resources */,
 				EA7964D224466821000FBE64 /* Cartfile in Resources */,
+				EA4783C22447F33000D3E189 /* Assets.xcassets in Resources */,
 				EA7964D424466821000FBE64 /* SwaggerClient.podspec in Resources */,
 				EA780A3B2443EFD700219C38 /* Main.storyboard in Resources */,
 			);

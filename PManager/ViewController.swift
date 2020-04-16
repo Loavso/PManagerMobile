@@ -43,7 +43,8 @@ class ViewController: UIViewController {
 
     }
 
-
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {}
+    
     @IBAction func DoLogin(_ sender: AnyObject) {
        
         if(login_button.titleLabel?.text == "Logout")
