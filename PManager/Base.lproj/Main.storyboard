@@ -185,7 +185,7 @@
         <!--View Controller-->
         <scene sceneID="wxx-wl-K4h">
             <objects>
-                <viewController id="oxT-Zz-XbA" sceneMemberID="viewController">
+                <viewController id="oxT-Zz-XbA" customClass="ViewController" customModule="PManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U4W-lM-Ih9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,7 +351,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="1ip-DW-6r9"/>
                                         </constraints>
-                                        <state key="normal" title="Continue">
+                                        <state key="normal" title="Sign Up">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -359,6 +359,9 @@
                                                 <integer key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="DoSignUp:" destination="oxT-Zz-XbA" eventType="touchUpInside" id="0uO-e4-51X"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="7dG-0c-h6k">
                                         <rect key="frame" x="16" y="630" width="382" height="170"/>
@@ -380,6 +383,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nxp-ej-QmR"/>
                     </view>
+                    <connections>
+                        <outlet property="email_s_input" destination="yAS-rd-JeG" id="gz0-c5-bDW"/>
+                        <outlet property="first_name_s_input" destination="3Ja-QC-A8h" id="kAR-1a-lA5"/>
+                        <outlet property="last_name_s_input" destination="mhD-Xw-3lB" id="aq5-Ni-9Td"/>
+                        <outlet property="password_confirm_s_input" destination="XDC-tC-ZHy" id="s6t-h4-qeQ"/>
+                        <outlet property="password_s_input" destination="FOd-Jd-hzt" id="o6b-uT-QUp"/>
+                        <outlet property="sign_up_button" destination="Srj-Kr-i34" id="hRy-FV-QXB"/>
+                        <outlet property="username_s_input" destination="s60-di-tJU" id="CYN-rZ-0qo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1O-qY-6gH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="jQY-cp-GtB" userLabel="Exit" sceneMemberID="exit"/>
