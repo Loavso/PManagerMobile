@@ -75,7 +75,7 @@ class ViewController: UIViewController {
             }
             else
             {
-                print("error: \(error)")
+                print("error: \(String(describing: error))")
             }
         }
         
@@ -99,11 +99,11 @@ class ViewController: UIViewController {
         ClientsAPI.authSignupPost(body: SignUpRequest(firstName: firstName, lastName: lastName, email: email, username: username, password: password, passwordConfirmation: passwordConfirm)){data, error in
             if(error == nil)
             {
-                print(HTTPCookieStorage.shared.cookies!)
+                self.performSegue(withIdentifier: "unwindToSignIn", sender: self)
             }
             else
             {
-                print("error: \(error)")
+                print("error: \(String(describing: error))")
             }
         }
     }
