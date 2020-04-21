@@ -29,7 +29,7 @@ open class AlamofireRequestBuilder<T>: RequestBuilder<T> {
     }
 
     /**
-     May be overridden by a subclass if you want to control the SessionManager
+     May be overridden by a subclass if you want to control the session
      configuration.
      */
     open func createSessionManager() -> Alamofire.SessionManager {

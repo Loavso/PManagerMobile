@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:PManager/Assets.xcassets"
+      name = "Assets.xcassets">
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:Header.imageset"
+            name = "Header.imageset">
+            <FileRef
+               location = "group:Header.pdf">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:Close button.imageset"
+            name = "Close button.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:Close button.pdf">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:PManager.xcodeproj">
    </FileRef>

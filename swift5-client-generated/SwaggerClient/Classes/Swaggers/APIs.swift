@@ -7,7 +7,7 @@
 import Foundation
 
 open class SwaggerClientAPI {
-    public static var basePath = "http://34.73.25.235"
+    public static var basePath = "http://api.parkingmanagerapp.com"
     public static var credential: URLCredential?
     public static var customHeaders: [String:String] = [:]
     public static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
